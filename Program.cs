@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Escribe tu nombre");
+string nombre = Console.ReadLine();
+Console.WriteLine("Escribe tu edad");
+string edad = Console.ReadLine();
+Console.WriteLine("Tu nombre es " + nombre + "y tu edad es " + edad);
