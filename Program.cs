@@ -65,7 +65,8 @@ float cualquierFloat = pi * 2;
 
 //nullable
 
-int? i = null;
+int? i = 0;
+string? strNull = null;
 //
 
-Console.WriteLine(i + 1);
+Console.WriteLine(i+1);
